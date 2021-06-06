@@ -1,4 +1,4 @@
-DEFAULT_INITIAL_BASKET = ["orange", "apple"]
+'''DEFAULT_INITIAL_BASKET = ["orange", "apple"]
 
 def create_picnic_basket(healthy, hungry, initial_basket=DEFAULT_INITIAL_BASKET):
     basket = initial_basket
@@ -10,7 +10,7 @@ def create_picnic_basket(healthy, hungry, initial_basket=DEFAULT_INITIAL_BASKET)
     if hungry:
         basket.append("sandwich")
     return basket
-
+'''
 # Reproducer
 
 def create_picnic_basket(healthy, hungry, initial_basket = None):
